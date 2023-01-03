@@ -1,0 +1,38 @@
+body {
+  background-image: url(header.jpg);
+  background-size: auto ;
+  background-position: center;
+}
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+h1 {
+  text-align: right;
+  color: rgb(212, 213, 227);
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 285px;
+  transition: all 1s;
+}
+h1:hover{
+ color: rgb(0, 138, 144);
+ margin-top: 250px;
+}
+.styleda{
+  margin-top: 310px;
+  margin-left: 820px;
+  background-color:rgb(253, 6, 0) ;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(212, 213, 227);
+  padding: 4px 70px;
+  transition: all 1s;
+  border-radius: 40px;
+
+}
+.styleda:hover{
+  background-color: rgb(110, 176, 55);
+  transform: scale(1.1);
+
+}
