@@ -1,38 +1,49 @@
+html,
 body {
-  background-image: url(header.jpg);
-  background-size: auto ;
-  background-position: center;
-}
-html {
-  width: 100%;
+  background: url(header.jpg) no-repeat center center fixed; 
+  background-size: cover;
   height: 100%;
+  width: 100%;
   font-family: 'Montserrat', sans-serif;
+
 }
+
+hr {
+  max-width: 65px;
+  border-width: 3px;
+  border-color: #F05F44; 
+}
+
 h1 {
-  text-align: right;
-  color: rgb(212, 213, 227);
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  margin-top: 285px;
-  transition: all 1s;
+  font-size: 3rem; 
+  color: #e2dbdb;
 }
-h1:hover{
- color: rgb(0, 138, 144);
- margin-top: 250px;
-}
-.styleda{
-  margin-top: 310px;
-  margin-left: 820px;
-  background-color:rgb(253, 6, 0) ;
-  font-family: 'Montserrat', sans-serif;
-  color: rgb(212, 213, 227);
-  padding: 4px 70px;
-  transition: all 1s;
-  border-radius: 40px;
 
+.buffer {
+  height: 10rem;
 }
-.styleda:hover{
-  background-color: rgb(110, 176, 55);
-  transform: scale(1.1);
 
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
 }
+
+.btn-primary {
+  background-color: #F05F44;
+  border-color: #F05F44;
+  --bs-btn-hover-bg: #ee4b08;
+  --bs-btn-hover-border-color: #ee4b08; 
+}
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 4px;
+  cursor: pointer;
+}
+
+.btn-xl {
+  padding: 1rem 2rem; 
+}
+
